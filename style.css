@@ -1,0 +1,125 @@
+
+body{
+    background-color: azure;
+}
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*navigator*/
+
+.navigator{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+li{
+    display:inline;
+    align-self:center;
+    margin:0;
+    margin-left: 15;
+}
+ul{
+    margin:0;
+}
+
+.site-name{
+    margin:0;
+    font-family: 'Montserrat',sans-serif;
+    font-size:24px;
+    color:seashell;
+}
+.nav-menu{
+    font-family:'Montserrat',sans-serif;
+    font-weight:400;
+    font-size:16px;
+}
+a{
+    color:midnightblue;
+    text-decoration:none;
+}
+a:hover{
+    color:aliceblue;
+    transition:0.3s;
+}
+.dashboard{
+    display:flex;
+    flex-direction:column;
+    margin-top:100px;
+}
+
+.korean-comment{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:700;
+    font-size:50px;
+}
+.sample{
+    background-color:lightpink;
+    -webkit-text-stroke: 1px midnightblue;
+}
+.sample:hover{
+    background-color:transparent;
+    color:aliceblue;
+    -webkit-text-stroke: 1px midnightblue;
+    
+}
+
+.highlight{
+    color:aliceblue;
+    -webkit-text-stroke: 1px midnightblue;
+    transition:none;
+}
+.highligt:hover{
+    background-color:lightpink;
+    color:midnightblue;
+    transition:none;
+}
+.type1:hover{
+    background-color: bisque;
+}
+.type2:hover{
+    background-color:cornsilk;
+}
+.type3:hover{
+    background-color:lemonchiffon;
+}
+.hope-comment{
+    font-family:'Noto Sans KR',sans-serif;
+    font-weight:400;
+    font-size:15px;
+    font-style: italic;
+    color:darkblue;
+    letter-spacing:-0.3px;
+}
+.footer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:120px;
+}
+.contact{
+    font-family:'Montserrat',sans-serif;
+    font-size:50px;
+    font-weight:400;
+    color:lightblue;
+    border-top:1px solid rgb(63, 146, 173);
+    margin-bottom:15px;
+}
+.reason{
+    display:flex;
+    flex-direction:column;
+    margin-top:40px;
+}
+.Title{
+    text-align:center;
+    -webkit-text-stroke: 1px midnightblue;
+}
+.comment{
+    font-family:'Noto Sans KR',sans-serif;
+    font-style: italic;
+    color:grey;
+}
